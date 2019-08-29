@@ -40,4 +40,4 @@ sphinxcontrib-websupport==1.1.0  # via sphinx
 timelib==0.2.4
 typing==3.6.6             # via ruamel.yaml, sphinx
 urllib3==1.24.3           # via requests
-werkzeug==0.14.1          # via flask
+werkzeug==0.15.5          # via flask
