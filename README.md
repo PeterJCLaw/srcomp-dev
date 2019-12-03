@@ -27,6 +27,18 @@ screen pages are at:
  * <http://localhost:5112/staging.html>
 
 
+Bootstrap dependencies
+----------------------
+
+In order to run `init.sh` you'll need:
+
+ * git
+ * Python 2 or 3
+ * Virtualenv
+ * NPM
+ * Bower (will be installed from NPM if missing)
+
+
 Updating dependencies
 ---------------------
 
