@@ -30,8 +30,7 @@ pytz==2018.9              # via babel
 pyyaml==3.13
 reportlab==3.1.44
 requests==2.21.0
-ruamel.ordereddict==0.4.13  # via ruamel.yaml
-ruamel.yaml==0.15.97
+ruamel.yaml==0.15.100
 simplejson==3.6.5
 six==1.9.0
 snowballstemmer==1.2.0    # via sphinx
