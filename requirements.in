@@ -5,7 +5,6 @@ Flask
 freezegun
 Jinja2
 MarkupSafe
-mock
 nose
 Pillow
 Pygments
