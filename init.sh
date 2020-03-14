@@ -51,6 +51,7 @@ else
 fi
 source venv/bin/activate
 set -v
+pip install -U setuptools pip
 pip install -r requirements.txt
 clone_repo ranker
 clone_repo srcomp
