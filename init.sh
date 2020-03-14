@@ -7,10 +7,10 @@ function clone_repo {
     fi
 }
 
-for POSSIBLE_PYTHON in python2 python python3;
+for POSSIBLE_PYTHON in python python3;
 do
     PYTHON=$(which $POSSIBLE_PYTHON)
-    $PYTHON --version 2>&1 | grep -E 'Python (3\.|2\.7)' >/dev/null
+    $PYTHON --version 2>&1 | grep -E 'Python (3\.)' >/dev/null
     if [ $? -eq 0 ]; then
         echo "Found Python: $PYTHON"
         break
