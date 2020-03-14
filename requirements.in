@@ -10,7 +10,6 @@ nose
 Pillow
 Pygments
 python-dateutil
-pytz
 PyYAML<=4
 reportlab
 requests
