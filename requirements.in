@@ -5,7 +5,9 @@ Flask
 freezegun
 Jinja2
 MarkupSafe
+mido
 nose
+paramiko
 Pillow
 Pygments
 python-dateutil
