@@ -17,6 +17,5 @@ ruamel.yaml<0.16
 simplejson
 six
 Sphinx
-timelib
 
 pip-tools<4.5
