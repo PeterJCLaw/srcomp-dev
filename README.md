@@ -1,6 +1,8 @@
 SRcomp Development Script
 =========================
 
+[![CircleCI](https://circleci.com/gh/PeterJCLaw/srcomp-dev.svg?style=shield)](https://circleci.com/gh/PeterJCLaw/srcomp-dev)
+
 This repository contains a script - `init.sh` - which builds an srcomp
 development environment by:
 

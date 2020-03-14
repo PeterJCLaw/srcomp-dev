@@ -1,0 +1,21 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/python:3.5-stretch-node-browsers
+
+    steps:
+      - checkout
+
+      - run:
+          name: Install system dependencies
+          command: |
+            sudo npm install -g bower
+
+      - run: ./init.sh
+
+      - run:
+          name: Run tests
+          command: |
+            source venv/bin/activate
+            ./run-all-tests
