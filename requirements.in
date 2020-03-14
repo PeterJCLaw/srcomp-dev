@@ -19,4 +19,4 @@ six
 Sphinx
 timelib
 
-pip-tools
+pip-tools<4.5
