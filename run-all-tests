@@ -1,4 +1,5 @@
 #!/bin/bash
+
 if [ -z "$VIRTUAL_ENV" ]; then
     echo "You should activate the virtualenv before running this command."
     echo "$ source venv/bin/activate"
@@ -10,4 +11,3 @@ do
     cd $ROOT/$REPO
     python setup.py test
 done
-
