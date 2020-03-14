@@ -42,7 +42,6 @@ six==1.9.0
 snowballstemmer==1.2.0    # via sphinx
 sphinx==1.8.5
 sphinxcontrib-websupport==1.1.0  # via sphinx
-typing==3.6.6             # via sphinx
 urllib3==1.24.3           # via requests
 werkzeug==0.15.5          # via flask
 
