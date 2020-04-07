@@ -11,7 +11,7 @@ paramiko
 Pillow
 Pygments
 python-dateutil
-PyYAML<=4
+PyYAML<6
 reportlab
 requests
 ruamel.yaml<0.16
