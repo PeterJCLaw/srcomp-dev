@@ -28,6 +28,8 @@ screen pages are at:
  * <http://localhost:5112/shepherding.html>
  * <http://localhost:5112/staging.html>
 
+The stream is exposed as <http://localhost:5001/> and the scorer is at
+<http://localhost:5112/scorer>.
 
 Bootstrap dependencies
 ----------------------
