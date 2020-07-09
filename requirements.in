@@ -8,15 +8,15 @@ MarkupSafe
 mido
 nose
 paramiko
-Pillow
+Pillow<7  # srcomp-cli needs <7
 Pygments
 python-dateutil
 PyYAML<=4
-reportlab
+reportlab<3.5  # srcomp-cli needs <3.5
 requests
 ruamel.yaml<0.16
 simplejson
 six
 Sphinx
 
-pip-tools<4.5
+pip-tools
