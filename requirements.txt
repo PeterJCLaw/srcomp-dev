@@ -21,14 +21,14 @@ idna==2.10                # via requests
 imagesize==1.2.0          # via sphinx
 importlib-resources==3.0.0  # via jaraco.text
 itsdangerous==1.1.0       # via flask
-jaraco.classes==3.1.0     # via jaraco.collections
-jaraco.collections==3.0.0  # via cherrypy
-jaraco.functools==3.0.1   # via cheroot, jaraco.text, tempora
+jaraco.classes==2.0       # via -r requirements.in, jaraco.collections
+jaraco.collections==2.1   # via -r requirements.in, cherrypy
+jaraco.functools==2.0     # via -r requirements.in, cheroot, jaraco.text, tempora
 jaraco.text==3.2.0        # via jaraco.collections
 jinja2==2.11.2            # via -r requirements.in, flask, sphinx
 markupsafe==1.1.1         # via -r requirements.in, jinja2
 mido==1.2.9               # via -r requirements.in
-more-itertools==8.4.0     # via cheroot, cherrypy, jaraco.classes, jaraco.functools
+more-itertools==8.4.0     # via cheroot, cherrypy, jaraco.functools
 nose==1.3.7               # via -r requirements.in
 packaging==20.4           # via sphinx
 paramiko==2.7.1           # via -r requirements.in
@@ -46,7 +46,7 @@ reportlab==3.4.0          # via -r requirements.in
 requests==2.24.0          # via -r requirements.in, sphinx
 ruamel.yaml==0.15.100     # via -r requirements.in
 simplejson==3.17.0        # via -r requirements.in
-six==1.15.0               # via -r requirements.in, bcrypt, cheroot, cryptography, freezegun, jaraco.collections, jaraco.text, packaging, pip-tools, pynacl, python-dateutil
+six==1.15.0               # via -r requirements.in, bcrypt, cheroot, cryptography, freezegun, jaraco.classes, jaraco.collections, jaraco.text, packaging, pip-tools, pynacl, python-dateutil, tempora
 snowballstemmer==2.0.0    # via sphinx
 sphinx==3.1.2             # via -r requirements.in
 sphinxcontrib-applehelp==1.0.2  # via sphinx
@@ -55,11 +55,11 @@ sphinxcontrib-htmlhelp==1.0.3  # via sphinx
 sphinxcontrib-jsmath==1.0.1  # via sphinx
 sphinxcontrib-qthelp==1.0.3  # via sphinx
 sphinxcontrib-serializinghtml==1.1.4  # via sphinx
-tempora==3.0.0            # via portend
+tempora==1.14.1           # via -r requirements.in, portend
 urllib3==1.25.9           # via requests
 werkzeug==1.0.1           # via flask
 zc.lockfile==2.0          # via cherrypy
-zipp==3.1.0               # via importlib-resources
+zipp==1.2.0               # via -r requirements.in, importlib-resources
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
