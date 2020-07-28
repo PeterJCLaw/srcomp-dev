@@ -8,7 +8,6 @@ MarkupSafe
 mido
 nose
 paramiko
-Pillow<7  # srcomp-cli needs <7
 Pygments
 python-dateutil
 PyYAML<=4
