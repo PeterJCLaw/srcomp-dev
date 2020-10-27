@@ -19,10 +19,3 @@ six
 Sphinx
 
 pip-tools
-
-# Force Python 3.5 support
-jaraco.classes<3
-jaraco.collections<3
-jaraco.functools<3
-tempora<2
-zipp<2
