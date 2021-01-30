@@ -11,7 +11,7 @@ paramiko
 Pygments
 python-dateutil
 PyYAML<=4
-reportlab<3.5  # srcomp-cli needs <3.5
+reportlab<3.6  # srcomp-cli needs <3.6
 requests
 ruamel.yaml<0.16
 simplejson
