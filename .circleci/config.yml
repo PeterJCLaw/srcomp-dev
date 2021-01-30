@@ -1,8 +1,29 @@
-version: 2
-jobs:
-  build:
+version: 2.1
+
+references:
+  parametrised-python-executor: &parametrised-python-executor
+    parameters:
+      version:
+        type: string
+    executor:
+      name: python
+      version: << parameters.version >>
+  python-full-version-matrix: &python-full-version-matrix
+    matrix:
+      parameters:
+        version: ["3.7", "3.8", "3.9"]
+
+executors:
+  python:
+    parameters:
+      version:
+        type: string
     docker:
-      - image: circleci/python:3.6-stretch-node-browsers
+      - image: circleci/python:<< parameters.version >>-stretch-node-browsers
+
+jobs:
+  validate:
+    <<: *parametrised-python-executor
 
     steps:
       - checkout
@@ -19,3 +40,11 @@ jobs:
           command: |
             source venv/bin/activate
             ./run-all-tests
+
+workflows:
+  version: 2.1
+
+  validate:
+    jobs:
+      - validate:
+          <<: *python-full-version-matrix

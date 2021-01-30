@@ -37,7 +37,7 @@ Bootstrap dependencies
 In order to run `init.sh` you'll need:
 
  * git
- * Python 2 or 3
+ * Python 3.7+
  * Virtualenv
  * NPM
  * Bower (will be installed from NPM if missing)
