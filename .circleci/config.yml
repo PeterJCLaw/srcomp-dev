@@ -19,7 +19,7 @@ executors:
       version:
         type: string
     docker:
-      - image: circleci/python:<< parameters.version >>-stretch-node-browsers
+      - image: circleci/python:<< parameters.version >>-node-browsers
 
 jobs:
   validate:
