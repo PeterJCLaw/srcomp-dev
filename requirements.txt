@@ -19,7 +19,6 @@ flask==1.1.2              # via -r requirements.in
 freezegun==0.3.15         # via -r requirements.in
 idna==2.10                # via requests
 imagesize==1.2.0          # via sphinx
-importlib-resources==3.0.0  # via jaraco.text
 itsdangerous==1.1.0       # via flask
 jaraco.classes==2.0       # via jaraco.collections
 jaraco.collections==2.1   # via cherrypy
@@ -59,7 +58,6 @@ tempora==1.14.1           # via portend
 urllib3==1.25.9           # via requests
 werkzeug==1.0.1           # via flask
 zc.lockfile==2.0          # via cherrypy
-zipp==1.2.0               # via importlib-resources
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
