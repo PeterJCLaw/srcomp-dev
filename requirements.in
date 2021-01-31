@@ -10,7 +10,7 @@ nose
 paramiko
 Pygments
 python-dateutil
-PyYAML<=4
+PyYAML<=6
 reportlab<3.6  # srcomp-cli needs <3.6
 requests
 ruamel.yaml<0.16
