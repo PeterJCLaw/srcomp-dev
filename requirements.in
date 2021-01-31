@@ -18,4 +18,4 @@ simplejson
 six
 Sphinx
 
-pip-tools
+pip-tools<5.5  # format change in 5.5
