@@ -29,7 +29,7 @@ click==7.1.2
     # via
     #   flask
     #   pip-tools
-cryptography==3.2
+cryptography==3.4.4
     # via paramiko
 docutils==0.16
     # via
@@ -119,7 +119,6 @@ six==1.15.0
     #   -r requirements.in
     #   bcrypt
     #   cheroot
-    #   cryptography
     #   freezegun
     #   jaraco.classes
     #   jaraco.collections
