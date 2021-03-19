@@ -78,9 +78,11 @@ packaging==20.4
     # via sphinx
 paramiko==2.7.2
     # via -r requirements.in
+pep517==0.10.0
+    # via pip-tools
 pillow==8.0.1
     # via reportlab
-pip-tools==5.5.0
+pip-tools==6.0.1
     # via -r requirements.in
 portend==2.6
     # via cherrypy
@@ -145,6 +147,8 @@ sphinxcontrib-serializinghtml==1.1.4
     # via sphinx
 tempora==1.14.1
     # via portend
+toml==0.10.2
+    # via pep517
 urllib3==1.25.9
     # via requests
 werkzeug==1.0.1
