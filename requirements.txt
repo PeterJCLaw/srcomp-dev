@@ -88,7 +88,7 @@ portend==2.6
     # via cherrypy
 pycparser==2.20
     # via cffi
-pygments==2.6.1
+pygments==2.8.1
     # via
     #   -r requirements.in
     #   sphinx
@@ -131,7 +131,7 @@ six==1.15.0
     #   tempora
 snowballstemmer==2.0.0
     # via sphinx
-sphinx==3.1.2
+sphinx==3.5.3
     # via -r requirements.in
 sphinxcontrib-applehelp==1.0.2
     # via sphinx
