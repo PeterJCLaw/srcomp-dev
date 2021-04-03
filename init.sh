@@ -3,7 +3,7 @@ function clone_repo {
     if [ -d "$1" ]; then
         echo 'Skipped: already exists.'
     else
-        git clone --recursive git://github.com/PeterJCLaw/$1
+        git clone --recursive git://github.com/${2:-PeterJCLaw}/$1
     fi
 }
 
@@ -63,6 +63,7 @@ clone_repo srcomp-cli
 clone_repo srcomp-stream
 clone_repo srcomp-kiosk
 clone_repo srcomp-puppet
+clone_repo livestream-overlay srobo
 cd ranker
     pip install -e .
 cd ..
@@ -84,6 +85,11 @@ cd ..
 cd srcomp-stream
     sed 's_SRCOMP: .*_SRCOMP: "http://localhost:5112/comp-api"_' <config.local.coffee.example >config.local.coffee
     npm install
+cd livestream-overlay
+    npm install
+    npm run build
+    sed 's_streamServerURI.*_streamServerURI = "http://localhost:5001/";_;
+        s_apiURI.*_apiURI = "http://localhost:5112/";_' settings.example.js >settings.js
 cd ..
 set +v
 echo "-- DONE SETUP --"
