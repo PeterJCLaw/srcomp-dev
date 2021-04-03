@@ -76,7 +76,6 @@ if args.overlay:
         'tools.caching.on': False,
         'tools.staticdir.index': 'stream.html',
     }
-    print('Livestream overlay is available at: http://localhost:5112/livestream-overlay/')
 
 cherrypy.quickstart(config=config)
 
