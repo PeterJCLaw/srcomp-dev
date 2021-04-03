@@ -70,12 +70,13 @@ config={
 
 if args.overlay:
     overlay_dir = os.path.realpath(os.path.join(mydir, 'livestream-overlay'))
-    config['/overlay'] = {
+    config['/livestream-overlay'] = {
         'tools.staticdir.on': True,
         'tools.staticdir.dir': overlay_dir,
         'tools.caching.on': False,
+        'tools.staticdir.index': 'stream.html',
     }
-    print('Livestream overlay is available at: http://localhost:5112/overlay/stream.html')
+    print('Livestream overlay is available at: http://localhost:5112/livestream-overlay/')
 
 cherrypy.quickstart(config=config)
 
