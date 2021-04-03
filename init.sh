@@ -80,6 +80,7 @@ cd srcomp-cli
 cd ..
 cd srcomp-screens
     bower install
+    sed 's_localhost/_localhost:5112/_' config.example.json >config.json
 cd ..
 cd srcomp-stream
     sed 's_SRCOMP: .*_SRCOMP: "http://localhost:5112/comp-api"_' <config.local.coffee.example >config.local.coffee
