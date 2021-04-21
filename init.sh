@@ -80,7 +80,7 @@ cd srcomp-cli
 cd ..
 cd srcomp-screens
     bower install
-    python3 -c '
+    python -c '
 import sys, json
 print(json.dumps({
     **json.load(sys.stdin),
