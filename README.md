@@ -40,7 +40,7 @@ In order to run `init.sh` you'll need:
  * Python 3.7+
  * Virtualenv
  * NPM
- * Bower (will be installed from NPM if missing)
+ * Yarn
 
 
 Updating dependencies

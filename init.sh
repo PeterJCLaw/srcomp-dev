@@ -29,16 +29,16 @@ if [ -f /etc/lsb-release ]; then
     fi
 fi
 
-# Check that bower is installed
-bower --version
+# Check that yarn is installed
+yarn --version
 if [ $? -ne 0 ]; then
     npm --version
     if [ $? -ne 0 ]; then
         echo "npm not installed. Install it through your system package manager."
         exit 1
     fi
-    echo "Bower not installed. Please install it:"
-    echo "$ npm install -g bower"
+    echo "yarn not installed. Please install it:"
+    echo "$ npm install -g yarn"
     exit 1
 fi
 
@@ -79,7 +79,7 @@ cd srcomp-cli
     pip install -e .
 cd ..
 cd srcomp-screens
-    bower install
+    yarn install
     python -c '
 import sys, json
 print(json.dumps({
