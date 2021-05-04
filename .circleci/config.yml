@@ -28,11 +28,6 @@ jobs:
     steps:
       - checkout
 
-      - run:
-          name: Install system dependencies
-          command: |
-            sudo npm install -g yarn
-
       - run: ./init.sh
 
       - run:
