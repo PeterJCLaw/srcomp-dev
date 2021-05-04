@@ -80,6 +80,13 @@ cd srcomp-cli
 cd ..
 cd srcomp-screens
     bower install
+    python -c '
+import sys, json
+print(json.dumps({
+    **json.load(sys.stdin),
+    "apiurl": "http://localhost:5112/comp-api",
+    "streamurl": "http://localhost:5001/"
+}, indent=2))' <config.example.json >config.json
 cd ..
 cd srcomp-stream
     sed 's_SRCOMP: .*_SRCOMP: "http://localhost:5112/comp-api"_' <config.local.coffee.example >config.local.coffee
