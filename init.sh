@@ -92,6 +92,7 @@ cd ..
 cd srcomp-stream
     sed 's_SRCOMP: .*_SRCOMP: "http://localhost:5112/comp-api"_' <config.local.coffee.example >config.local.coffee
     npm install
+cd ..
 cd livestream-overlay
     npm install
     npm run build
