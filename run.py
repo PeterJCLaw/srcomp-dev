@@ -19,6 +19,8 @@ parser.add_argument('--no-scorer', action='store_false',
                     dest='scorer', help='disable the scorer system')
 parser.add_argument('--no-stream', action='store_false',
                     dest='stream', help='disable the event stream')
+parser.add_argument('--overlay', action='store_true',
+                    help='enable using the livestream overlay')
 args = parser.parse_args()
 
 app.config['COMPSTATE'] = args.compstate
@@ -65,5 +67,15 @@ config={
         'server.thread_pool': 8
     }
 }
+
+if args.overlay:
+    overlay_dir = os.path.realpath(os.path.join(mydir, 'livestream-overlay'))
+    config['/livestream-overlay'] = {
+        'tools.staticdir.on': True,
+        'tools.staticdir.dir': overlay_dir,
+        'tools.caching.on': False,
+        'tools.staticdir.index': 'stream.html',
+    }
+
 cherrypy.quickstart(config=config)
 

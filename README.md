@@ -31,6 +31,8 @@ screen pages are at:
 The stream is exposed as <http://localhost:5001/> and the scorer is at
 <http://localhost:5112/scorer>.
 
+The livestream overlay is exposed at <http://localhost:5112/livestream-overlay/>
+
 Bootstrap dependencies
 ----------------------
 
