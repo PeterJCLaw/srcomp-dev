@@ -107,7 +107,7 @@ pytz==2021.1
     #   tempora
 pyyaml==5.4.1
     # via -r requirements.in
-reportlab==3.5.66
+reportlab==3.5.67
     # via -r requirements.in
 requests==2.25.1
     # via
