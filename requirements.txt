@@ -144,7 +144,7 @@ tempora==4.0.1
     # via portend
 toml==0.10.2
     # via pep517
-urllib3==1.26.4
+urllib3==1.26.5
     # via requests
 werkzeug==1.0.1
     # via flask
