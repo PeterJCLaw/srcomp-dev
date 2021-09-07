@@ -81,7 +81,7 @@ paramiko==2.7.2
     # via -r requirements.in
 pep517==0.10.0
     # via pip-tools
-pillow==8.2.0
+pillow==8.3.2
     # via reportlab
 pip-tools==6.0.1
     # via -r requirements.in
