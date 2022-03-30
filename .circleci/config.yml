@@ -11,7 +11,7 @@ references:
   python-full-version-matrix: &python-full-version-matrix
     matrix:
       parameters:
-        version: ["3.7", "3.8", "3.9"]
+        version: ["3.7", "3.8", "3.9", "3.10"]
 
 executors:
   python:
@@ -43,6 +43,10 @@ jobs:
             if [ "<< parameters.version >>" == "3.9" ]
             then
               sudo rm -f $(which python3.8) $(which python3.7)
+            fi
+            if [ "<< parameters.version >>" == "3.10" ]
+            then
+              sudo rm -f $(which python3.9) $(which python3.8) $(which python3.7)
             fi
 
       - run: ./init.sh
