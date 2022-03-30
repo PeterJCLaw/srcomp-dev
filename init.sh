@@ -3,7 +3,7 @@ function clone_repo {
     if [ -d "$1" ]; then
         echo 'Skipped: already exists.'
     else
-        git clone --recursive git://github.com/${2:-PeterJCLaw}/$1
+        git clone --recursive https://github.com/${2:-PeterJCLaw}/$1
     fi
 }
 
