@@ -10,10 +10,10 @@ nose
 paramiko
 Pygments
 python-dateutil
-PyYAML<=6
-reportlab<3.6  # srcomp-cli needs <3.6
+PyYAML<=7
+reportlab<3.7  # srcomp-cli needs <3.7
 requests
-ruamel.yaml<0.16
+ruamel.yaml<1.0
 simplejson
 six
 Sphinx

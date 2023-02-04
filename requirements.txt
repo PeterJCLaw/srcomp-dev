@@ -112,16 +112,18 @@ pytz==2021.3
     # via
     #   babel
     #   tempora
-pyyaml==5.4.1
+pyyaml==6.0
     # via -r requirements.in
-reportlab==3.5.68
+reportlab==3.6.12
     # via -r requirements.in
 requests==2.26.0
     # via
     #   -r requirements.in
     #   sphinx
-ruamel-yaml==0.15.100
+ruamel-yaml==0.17.21
     # via -r requirements.in
+ruamel-yaml-clib==0.2.7
+    # via ruamel-yaml
 simplejson==3.17.5
     # via -r requirements.in
 six==1.16.0
