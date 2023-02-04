@@ -6,9 +6,14 @@ if [ -z "$VIRTUAL_ENV" ]; then
     exit 1
 fi
 
+result=0
+
 for REPO in ranker srcomp srcomp-http
 do
     pushd $REPO
     python setup.py test
+    result=$((result | $?))
     popd
 done
+
+exit $result
