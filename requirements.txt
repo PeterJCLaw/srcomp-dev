@@ -88,7 +88,7 @@ paramiko==2.10.1
     # via -r requirements.in
 pillow==9.3.0
     # via reportlab
-pip-tools==6.12.2
+pip-tools==7.1.0
     # via -r requirements.in
 portend==3.0.0
     # via cherrypy
@@ -155,6 +155,7 @@ tempora==4.1.2
 tomli==1.2.1
     # via
     #   build
+    #   pip-tools
     #   pyproject-hooks
 urllib3==1.26.7
     # via requests
