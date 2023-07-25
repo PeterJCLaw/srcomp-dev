@@ -14,7 +14,7 @@ bcrypt==3.2.0
     # via paramiko
 build==0.10.0
     # via pip-tools
-certifi==2022.12.7
+certifi==2023.7.22
     # via requests
 cffi==1.15.0
     # via
@@ -45,8 +45,6 @@ idna==3.3
     # via requests
 imagesize==1.2.0
     # via sphinx
-importlib-metadata==6.0.0
-    # via flask
 itsdangerous==2.1.2
     # via flask
 jaraco-classes==3.2.1
@@ -122,8 +120,6 @@ requests==2.31.0
     #   sphinx
 ruamel-yaml==0.17.21
     # via -r requirements.in
-ruamel-yaml-clib==0.2.7
-    # via ruamel-yaml
 simplejson==3.17.5
     # via -r requirements.in
 six==1.16.0
@@ -152,11 +148,6 @@ sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
 tempora==4.1.2
     # via portend
-tomli==1.2.1
-    # via
-    #   build
-    #   pip-tools
-    #   pyproject-hooks
 urllib3==1.26.7
     # via requests
 werkzeug==2.2.3
@@ -165,8 +156,6 @@ wheel==0.38.1
     # via pip-tools
 zc-lockfile==2.0
     # via cherrypy
-zipp==3.12.0
-    # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
