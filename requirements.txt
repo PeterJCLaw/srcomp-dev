@@ -14,7 +14,7 @@ bcrypt==3.2.0
     # via paramiko
 build==0.10.0
     # via pip-tools
-certifi==2022.12.7
+certifi==2023.7.22
     # via requests
 cffi==1.15.0
     # via
