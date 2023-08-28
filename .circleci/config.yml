@@ -11,7 +11,7 @@ references:
   python-full-version-matrix: &python-full-version-matrix
     matrix:
       parameters:
-        version: ["3.7", "3.8", "3.9", "3.10", "3.11"]
+        version: ["3.8", "3.9", "3.10", "3.11"]
 
 executors:
   python:
@@ -32,10 +32,6 @@ jobs:
           name: Remove unexpected Python versions
           command: |
             # Work around https://github.com/CircleCI-Public/cimg-python/issues/96
-            if [ "<< parameters.version >>" == "3.7" ]
-            then
-              sudo rm -f $(which python3.9) $(which python3.8)
-            fi
             if [ "<< parameters.version >>" == "3.8" ]
             then
               sudo rm -f $(which python3.9) $(which python3.7)

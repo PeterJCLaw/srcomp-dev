@@ -39,7 +39,7 @@ Bootstrap dependencies
 In order to run `init.sh` you'll need:
 
  * git
- * Python 3.7+
+ * Python 3.8+
  * Virtualenv
  * NPM
  * Yarn
