@@ -161,7 +161,7 @@ urllib3==1.26.7
     # via requests
 werkzeug==2.2.3
     # via flask
-wheel==0.38.1
+wheel==0.41.2
     # via pip-tools
 zc-lockfile==2.0
     # via cherrypy
