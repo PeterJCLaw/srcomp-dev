@@ -7,7 +7,7 @@ function clone_repo {
     fi
 }
 
-for POSSIBLE_PYTHON in python3.9 python3.8 python3.7 python3 python;
+for POSSIBLE_PYTHON in python3.11 python3.10 python3.9 python3.8 python3.7 python3 python;
 do
     PYTHON=$(which $POSSIBLE_PYTHON)
     $PYTHON --version 2>&1 | grep -E 'Python (3\.)' >/dev/null
