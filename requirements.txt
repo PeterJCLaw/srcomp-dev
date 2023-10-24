@@ -157,7 +157,7 @@ tomli==1.2.1
     #   build
     #   pip-tools
     #   pyproject-hooks
-urllib3==1.26.17
+urllib3==1.26.18
     # via requests
 werkzeug==2.2.3
     # via flask
