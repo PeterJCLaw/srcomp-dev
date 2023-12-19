@@ -11,7 +11,7 @@ references:
   python-full-version-matrix: &python-full-version-matrix
     matrix:
       parameters:
-        version: ["3.8", "3.9", "3.10", "3.11"]
+        version: ["3.8", "3.9", "3.10", "3.11", "3.12"]
 
 executors:
   python:
@@ -34,19 +34,31 @@ jobs:
             # Work around https://github.com/CircleCI-Public/cimg-python/issues/96
             if [ "<< parameters.version >>" == "3.8" ]
             then
-              sudo rm -f $(which python3.11) $(which python3.10) $(which python3.9) $(which python3.7)
+              sudo rm -f $(which python3.12) $(which python3.11) $(which python3.10) $(which python3.9) $(which python3.7)
             fi
             if [ "<< parameters.version >>" == "3.9" ]
             then
-              sudo rm -f $(which python3.11) $(which python3.10) $(which python3.8) $(which python3.7)
+              sudo rm -f $(which python3.12) $(which python3.11) $(which python3.10) $(which python3.8) $(which python3.7)
             fi
             if [ "<< parameters.version >>" == "3.10" ]
             then
-              sudo rm -f $(which python3.11) $(which python3.9) $(which python3.8) $(which python3.7)
+              sudo rm -f $(which python3.12) $(which python3.11) $(which python3.9) $(which python3.8) $(which python3.7)
             fi
             if [ "<< parameters.version >>" == "3.11" ]
             then
-              sudo rm -f $(which python3.10) $(which python3.9) $(which python3.8) $(which python3.7)
+              sudo rm -f $(which python3.11) $(which python3.10) $(which python3.9) $(which python3.8) $(which python3.7)
+            fi
+            if [ "<< parameters.version >>" == "3.12" ]
+            then
+              sudo rm -f $(which python3.11) $(which python3.10) $(which python3.9) $(which python3.8) $(which python3.7)
+            fi
+
+      - run:
+          name: Add native packages
+          command: |
+            if [ "<< parameters.version >>" == "3.12" ]
+            then
+              sudo apt install libfreetype{-dev,6,6-dev}
             fi
 
       - run: ./init.sh
