@@ -53,6 +53,14 @@ jobs:
               sudo rm -f $(which python3.11) $(which python3.10) $(which python3.9) $(which python3.8) $(which python3.7)
             fi
 
+      - run:
+          name: Add native packages
+          command: |
+            if [ "<< parameters.version >>" == "3.12" ]
+            then
+              sudo apt install libfreetype{-dev,6,6-dev}
+            fi
+
       - run: ./init.sh
 
       - run:
