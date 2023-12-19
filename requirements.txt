@@ -84,7 +84,7 @@ packaging==21.0
     # via
     #   build
     #   sphinx
-paramiko==2.10.1
+paramiko==3.4.0
     # via -r requirements.in
 pillow==10.0.1
     # via reportlab
@@ -98,7 +98,7 @@ pygments==2.15.1
     # via
     #   -r requirements.in
     #   sphinx
-pynacl==1.4.0
+pynacl==1.5.0
     # via paramiko
 pyparsing==2.4.7
     # via packaging
@@ -131,8 +131,6 @@ six==1.16.0
     #   -r requirements.in
     #   bcrypt
     #   cheroot
-    #   paramiko
-    #   pynacl
     #   python-dateutil
 snowballstemmer==2.1.0
     # via sphinx
