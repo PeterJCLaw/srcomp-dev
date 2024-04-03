@@ -86,7 +86,7 @@ packaging==21.0
     #   sphinx
 paramiko==3.4.0
     # via -r requirements.in
-pillow==10.2.0
+pillow==10.3.0
     # via reportlab
 pip-tools==7.3.0
     # via -r requirements.in
