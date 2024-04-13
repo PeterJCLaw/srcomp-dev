@@ -97,7 +97,7 @@ cd livestream-overlay
     npm install
     npm run build
     sed 's_streamServerURI.*_streamServerURI = "http://localhost:5001/";_;
-        s_apiURI.*_apiURI = "http://localhost:5112/";_' settings.example.js >settings.js
+        s_apiURI.*_apiURI = "http://localhost:5112/comp-api/";_' settings.example.js >settings.js
 cd ..
 set +v
 echo "-- DONE SETUP --"
