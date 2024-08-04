@@ -12,6 +12,8 @@ babel==2.9.1
     #   sphinx
 bcrypt==3.2.0
     # via paramiko
+blinker==1.8.2
+    # via flask
 build==0.10.0
     # via pip-tools
 certifi==2024.7.4
@@ -21,6 +23,8 @@ cffi==1.15.0
     #   bcrypt
     #   cryptography
     #   pynacl
+chardet==5.2.0
+    # via reportlab
 charset-normalizer==2.0.7
     # via requests
 cheroot==8.5.2
@@ -37,7 +41,7 @@ docutils==0.17.1
     # via
     #   -r requirements.in
     #   sphinx
-flask==2.2.5
+flask==3.0.3
     # via -r requirements.in
 freezegun==1.1.0
     # via -r requirements.in
@@ -45,8 +49,10 @@ idna==3.7
     # via requests
 imagesize==1.2.0
     # via sphinx
-importlib-metadata==6.0.0
-    # via flask
+importlib-metadata==8.2.0
+    # via
+    #   flask
+    #   sphinx
 itsdangerous==2.1.2
     # via flask
 jaraco-classes==3.2.1
@@ -114,7 +120,7 @@ pytz==2021.3
     #   tempora
 pyyaml==6.0.1
     # via -r requirements.in
-reportlab==3.6.13
+reportlab==4.2.2
     # via -r requirements.in
 requests==2.32.0
     # via
@@ -134,7 +140,7 @@ six==1.16.0
     #   python-dateutil
 snowballstemmer==2.1.0
     # via sphinx
-sphinx==3.5.3
+sphinx==5.1.1
     # via -r requirements.in
 sphinxcontrib-applehelp==1.0.2
     # via sphinx
@@ -163,7 +169,7 @@ wheel==0.41.2
     # via pip-tools
 zc-lockfile==2.0
     # via cherrypy
-zipp==3.19.1
+zipp==3.19.2
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
