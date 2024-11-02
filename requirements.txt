@@ -151,7 +151,7 @@ tempora==4.1.2
     # via portend
 urllib3==2.2.2
     # via requests
-werkzeug==3.0.3
+werkzeug==3.0.6
     # via flask
 zc-lockfile==2.0
     # via cherrypy
