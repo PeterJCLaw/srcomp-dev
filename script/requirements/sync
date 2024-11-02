@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Updating requirements.in ..."
+pip-compile --quiet "$@"
+echo "Updating dev-requirements.in ..."
+pip-compile --quiet dev-requirements.in "$@"

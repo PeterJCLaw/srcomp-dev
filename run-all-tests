@@ -8,10 +8,17 @@ fi
 
 result=0
 
-for REPO in ranker srcomp srcomp-http
+for REPO in ranker srcomp srcomp-cli srcomp-http srcomp-scorer
 do
     pushd $REPO
-    python setup.py test
+    if [ -e run-tests ]
+    then
+        # Convenience wrapper present in some repos
+        ./run-tests
+    else
+        # Most common (but not universal) underlying entrypoint
+        script/testing/test
+    fi
     result=$((result | $?))
     popd
 done
