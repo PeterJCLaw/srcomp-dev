@@ -8,7 +8,7 @@ fi
 
 result=0
 
-for REPO in ranker srcomp srcomp-http
+for REPO in ranker srcomp srcomp-cli srcomp-http srcomp-scorer
 do
     pushd $REPO
     if [ -e run-tests ]
