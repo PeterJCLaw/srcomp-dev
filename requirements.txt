@@ -149,7 +149,7 @@ sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
 tempora==4.1.2
     # via portend
-urllib3==2.5.0
+urllib3==2.6.0
     # via requests
 werkzeug==3.0.6
     # via flask

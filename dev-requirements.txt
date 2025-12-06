@@ -232,7 +232,7 @@ tomli==1.2.1
     #   build
     #   pip-tools
     #   pyproject-hooks
-urllib3==2.5.0
+urllib3==2.6.0
     # via
     #   -r requirements.txt
     #   requests
