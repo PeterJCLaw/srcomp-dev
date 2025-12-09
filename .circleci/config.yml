@@ -38,7 +38,7 @@ jobs:
             fi
             if [ "<< parameters.version >>" == "3.11" ]
             then
-              sudo rm -f $(which python3.13) $(which python3.11) $(which python3.10) $(which python3.9) $(which python3.8) $(which python3.7)
+              sudo rm -f $(which python3.13) $(which python3.12) $(which python3.10) $(which python3.9) $(which python3.8) $(which python3.7)
             fi
             if [ "<< parameters.version >>" == "3.12" ]
             then
