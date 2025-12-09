@@ -69,7 +69,7 @@ docutils==0.17.1
     #   sphinx
 flask==3.0.3
     # via -r requirements.txt
-freezegun==1.1.0
+freezegun==1.5.5
     # via -r requirements.txt
 idna==3.7
     # via
