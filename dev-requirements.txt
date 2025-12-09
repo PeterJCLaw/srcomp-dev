@@ -175,7 +175,7 @@ pytz==2021.3
     #   -r requirements.txt
     #   babel
     #   tempora
-pyyaml==6.0.1
+pyyaml==6.0.3
     # via -r requirements.txt
 reportlab==4.2.2
     # via -r requirements.txt
