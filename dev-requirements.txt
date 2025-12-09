@@ -69,7 +69,7 @@ docutils==0.17.1
     #   sphinx
 flask==3.0.3
     # via -r requirements.txt
-freezegun==1.1.0
+freezegun==1.5.5
     # via -r requirements.txt
 idna==3.7
     # via
@@ -175,7 +175,7 @@ pytz==2021.3
     #   -r requirements.txt
     #   babel
     #   tempora
-pyyaml==6.0.1
+pyyaml==6.0.3
     # via -r requirements.txt
 reportlab==4.2.2
     # via -r requirements.txt
@@ -185,7 +185,7 @@ requests==2.32.4
     #   sphinx
 ruamel-yaml==0.17.40
     # via -r requirements.txt
-ruamel-yaml-clib==0.2.8
+ruamel-yaml-clib==0.2.15
     # via
     #   -r requirements.txt
     #   ruamel-yaml
