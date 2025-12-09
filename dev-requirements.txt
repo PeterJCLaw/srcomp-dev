@@ -134,7 +134,7 @@ packaging==21.0
     #   sphinx
 paramiko==3.4.0
     # via -r requirements.txt
-pillow==10.3.0
+pillow==11.3.0
     # via
     #   -r requirements.txt
     #   reportlab
