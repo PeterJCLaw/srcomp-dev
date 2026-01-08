@@ -233,7 +233,7 @@ tomli==1.2.1
     # via
     #   build
     #   pip-tools
-urllib3==2.6.0
+urllib3==2.6.3
     # via
     #   -r requirements.txt
     #   requests
