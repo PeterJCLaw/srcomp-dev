@@ -29,7 +29,7 @@ chardet==5.2.0
     # via reportlab
 charset-normalizer==2.0.7
     # via requests
-cheroot==8.5.2
+cheroot==11.1.2
     # via cherrypy
 cherrypy==18.10.0
     # via -r requirements.in
@@ -129,7 +129,6 @@ six==1.16.0
     # via
     #   -r requirements.in
     #   bcrypt
-    #   cheroot
     #   python-dateutil
 snowballstemmer==2.1.0
     # via sphinx

@@ -48,7 +48,7 @@ charset-normalizer==2.0.7
     # via
     #   -r requirements.txt
     #   requests
-cheroot==8.5.2
+cheroot==11.1.2
     # via
     #   -r requirements.txt
     #   cherrypy
@@ -193,7 +193,6 @@ six==1.16.0
     # via
     #   -r requirements.txt
     #   bcrypt
-    #   cheroot
     #   python-dateutil
 snowballstemmer==2.1.0
     # via
