@@ -228,7 +228,7 @@ tempora==4.1.2
     # via
     #   -r requirements.txt
     #   portend
-tomli==1.2.1
+tomli==2.4.0
     # via
     #   build
     #   pip-tools
