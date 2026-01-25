@@ -127,11 +127,12 @@ more-itertools==8.10.0
     #   jaraco-text
 nose==1.3.7
     # via -r requirements.txt
-packaging==21.0
+packaging==26.0
     # via
     #   -r requirements.txt
     #   build
     #   sphinx
+    #   wheel
 paramiko==3.4.0
     # via -r requirements.txt
 pillow==11.3.0
@@ -156,10 +157,6 @@ pynacl==1.6.2
     # via
     #   -r requirements.txt
     #   paramiko
-pyparsing==2.4.7
-    # via
-    #   -r requirements.txt
-    #   packaging
 pyproject-hooks==1.2.0
     # via
     #   build
@@ -240,7 +237,7 @@ werkzeug==3.1.5
     # via
     #   -r requirements.txt
     #   flask
-wheel==0.45.1
+wheel==0.46.3
     # via pip-tools
 zc-lockfile==2.0
     # via
