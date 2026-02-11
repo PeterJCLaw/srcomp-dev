@@ -59,7 +59,7 @@ click==8.1.3
     #   -r requirements.txt
     #   flask
     #   pip-tools
-cryptography==44.0.1
+cryptography==46.0.5
     # via
     #   -r requirements.txt
     #   paramiko
@@ -229,6 +229,10 @@ tomli==2.4.0
     # via
     #   build
     #   pip-tools
+typing-extensions==4.15.0
+    # via
+    #   -r requirements.txt
+    #   cryptography
 urllib3==2.6.3
     # via
     #   -r requirements.txt
