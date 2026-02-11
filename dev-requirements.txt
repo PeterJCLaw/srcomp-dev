@@ -135,7 +135,7 @@ packaging==26.0
     #   wheel
 paramiko==3.4.0
     # via -r requirements.txt
-pillow==11.3.0
+pillow==12.1.1
     # via
     #   -r requirements.txt
     #   reportlab
