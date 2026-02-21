@@ -151,7 +151,7 @@ typing-extensions==4.15.0
     # via cryptography
 urllib3==2.6.3
     # via requests
-werkzeug==3.1.5
+werkzeug==3.1.6
     # via flask
 zc-lockfile==2.0
     # via cherrypy
