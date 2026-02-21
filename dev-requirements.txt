@@ -67,7 +67,7 @@ docutils==0.17.1
     # via
     #   -r requirements.txt
     #   sphinx
-flask==3.0.3
+flask==3.1.3
     # via -r requirements.txt
 freezegun==1.5.5
     # via -r requirements.txt
@@ -79,7 +79,7 @@ imagesize==1.2.0
     # via
     #   -r requirements.txt
     #   sphinx
-itsdangerous==2.1.2
+itsdangerous==2.2.0
     # via
     #   -r requirements.txt
     #   flask
@@ -113,6 +113,7 @@ jinja2==3.1.6
 markupsafe==2.1.2
     # via
     #   -r requirements.txt
+    #   flask
     #   jinja2
     #   werkzeug
 mido==1.2.10
