@@ -114,7 +114,7 @@ pyyaml==6.0.3
     # via -r requirements.in
 reportlab==4.2.2
     # via -r requirements.in
-requests==2.32.4
+requests==2.33.0
     # via
     #   -r requirements.in
     #   sphinx
