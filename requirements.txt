@@ -90,7 +90,7 @@ packaging==26.0
     # via sphinx
 paramiko==3.4.0
     # via -r requirements.in
-pillow==12.1.1
+pillow==12.2.0
     # via reportlab
 portend==3.0.0
     # via cherrypy
