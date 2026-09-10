@@ -144,7 +144,7 @@ pillow==12.3.0
     # via
     #   -r requirements.txt
     #   reportlab
-pip-tools==7.5.2
+pip-tools==7.6.1
     # via -r dev-requirements.in
 portend==3.0.0
     # via
@@ -238,6 +238,7 @@ typing-extensions==4.15.0
     # via
     #   -r requirements.txt
     #   cryptography
+    #   pip-tools
 urllib3==2.7.0
     # via
     #   -r requirements.txt
