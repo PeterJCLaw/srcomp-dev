@@ -79,6 +79,10 @@ imagesize==1.2.0
     # via
     #   -r requirements.txt
     #   sphinx
+invoke==3.0.3
+    # via
+    #   -r requirements.txt
+    #   paramiko
 itsdangerous==2.2.0
     # via
     #   -r requirements.txt
@@ -134,7 +138,7 @@ packaging==26.0
     #   build
     #   sphinx
     #   wheel
-paramiko==3.4.0
+paramiko==5.0.0
     # via -r requirements.txt
 pillow==12.3.0
     # via
