@@ -151,7 +151,7 @@ tempora==4.1.2
     # via portend
 typing-extensions==4.15.0
     # via cryptography
-urllib3==2.7.0
+urllib3==2.8.0
     # via requests
 werkzeug==3.1.6
     # via flask
