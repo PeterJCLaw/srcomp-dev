@@ -239,7 +239,7 @@ typing-extensions==4.15.0
     #   -r requirements.txt
     #   cryptography
     #   pip-tools
-urllib3==2.7.0
+urllib3==2.8.0
     # via
     #   -r requirements.txt
     #   requests
