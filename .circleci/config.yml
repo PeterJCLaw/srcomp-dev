@@ -34,19 +34,19 @@ jobs:
             # Work around https://github.com/CircleCI-Public/cimg-python/issues/96
             if [ "<< parameters.version >>" == "3.11" ]
             then
-              sudo rm -f $(which python3.14) $(which python3.13) $(which python3.12) $(which python3.10) $(which python3.9) $(which python3.8) $(which python3.7)
+              sudo rm -f $(which python3.14) $(which python3.13) $(which python3.12) $(which python3.10)
             fi
             if [ "<< parameters.version >>" == "3.12" ]
             then
-              sudo rm -f $(which python3.14) $(which python3.13) $(which python3.11) $(which python3.10) $(which python3.9) $(which python3.8) $(which python3.7)
+              sudo rm -f $(which python3.14) $(which python3.13) $(which python3.11) $(which python3.10)
             fi
             if [ "<< parameters.version >>" == "3.13" ]
             then
-              sudo rm -f $(which python3.14) $(which python3.12) $(which python3.11) $(which python3.10) $(which python3.9) $(which python3.8) $(which python3.7)
+              sudo rm -f $(which python3.14) $(which python3.12) $(which python3.11) $(which python3.10)
             fi
             if [ "<< parameters.version >>" == "3.14" ]
             then
-              sudo rm -f $(which python3.13) $(which python3.12) $(which python3.11) $(which python3.10) $(which python3.9) $(which python3.8) $(which python3.7)
+              sudo rm -f $(which python3.13) $(which python3.12) $(which python3.11) $(which python3.10)
             fi
 
       - run:
