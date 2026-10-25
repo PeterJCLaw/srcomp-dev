@@ -40,13 +40,10 @@ cffi==2.0.0
     #   bcrypt
     #   cryptography
     #   pynacl
-chardet==5.2.0
-    # via
-    #   -r requirements.txt
-    #   reportlab
 charset-normalizer==2.0.7
     # via
     #   -r requirements.txt
+    #   reportlab
     #   requests
 cheroot==11.1.2
     # via
@@ -177,7 +174,7 @@ pytz==2021.3
     #   tempora
 pyyaml==6.0.3
     # via -r requirements.txt
-reportlab==4.2.2
+reportlab==4.5.1
     # via -r requirements.txt
 requests==2.33.0
     # via
