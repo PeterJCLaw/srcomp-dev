@@ -150,7 +150,9 @@ sphinxcontrib-serializinghtml==1.1.5
 tempora==4.1.2
     # via portend
 typing-extensions==4.15.0
-    # via cryptography
+    # via
+    #   -r requirements.in
+    #   cryptography
 urllib3==2.8.0
     # via requests
 werkzeug==3.1.9
